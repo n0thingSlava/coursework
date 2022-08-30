@@ -15,5 +15,12 @@ public class Main {
         for (Employee e: empl) {
             System.out.println(e);
         }
+        int sum = 0;
+
+        for(int i = 0; i< empl.length; i++){
+            sum+= empl[i].getSalary();
+        }
+
+        System.out.println("Cумма затрат на зарплаты в месяц-"+ sum);
     }
 }
