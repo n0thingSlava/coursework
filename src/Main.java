@@ -10,7 +10,7 @@ public class Main {
         empl[6] = new Employee("Ivanov Ivan Ivanovich5", 7, 99200f);
         empl[7] = new Employee("Ivanov Ivan Ivanovich5", 8, 99200f);
         empl[8] = new Employee("Ivanov Ivan Ivanovich5", 9, 99200f);
-        empl[9] = new Employee("Ivanov Ivan Ivanovich5", 10, 99200f);
+        empl[9] = new Employee("Ivanov Ivan Ivanovich10", 10, 99200f);
 
         for (Employee e: empl) {
             System.out.println(e);
